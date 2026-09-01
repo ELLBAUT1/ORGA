@@ -1,15 +1,28 @@
 #include <stdio.h>
 
-void traducirbinario(int binario){
-    int numero = binario / 10;
-    int resultado = 0;
-    while (numero > 0){
-        resultado++;
-        numero /= 10;
+void traducirbinario(long long binario) {
+    long long copia_binario = binario;
+    long long resultado = 0;
+    long long multiplicador = 1;
+
+    while (copia_binario > 0) {
+        int digito = copia_binario % 10;
+        resultado += digito * multiplicador;       
+        copia_binario = copia_binario / 10;        
+        multiplicador = multiplicador * 2;         
     }
-    printf("El numero binario %i corresponde al numero decimal %i", binario, resultado);
+
+    printf("El numero binario %lld corresponde al numero decimal %lld\n", binario, resultado);
 }
 
-void main(){
-    traducirbinario(1111111111);
+int main() {
+    long long numero_ingresado;
+    
+    printf("Ingrese un numero en notacion binaria: ");
+    scanf("%lld", &numero_ingresado);
+    
+    traducirbinario(numero_ingresado);
+    
+    return 0;
 }
+
