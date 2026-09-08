@@ -5,5 +5,6 @@ void celciusafarenheit(float cel){
 }
 
 int main(){
-    celciusafarenheit(102f);
+    celciusafarenheit(102);
+    return 0;
 }
