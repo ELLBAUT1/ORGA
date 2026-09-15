@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1788890976 source:/home/BAUT1/Documentos/PROGRAMACION/ORGA/LABORATORIOS/001/Laboratorio 001 ORGA/main.c
+	<stdio.h>
+	<stdlib.h>
+
