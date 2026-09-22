@@ -17,5 +17,10 @@
 		<Project filename="TP A/10/TPA-10.cbp" />
 		<Project filename="TP B/5/a/TPB-5a.cbp" />
 		<Project filename="LABORATORIOS/001/Laboratorio 001 ORGA/Laboratorio 001 ORGA.cbp" />
+		<Project filename="TP B/5/b/TPB-5b/TPB-5b.cbp" />
+		<Project filename="TP B/5/c/TPB-5c/TPB-5c.cbp" />
+		<Project filename="TP B/5/d/TPB-5d/TPB-5d.cbp" />
+		<Project filename="TP B/6/TPB-6/TPB-6.cbp" />
+		<Project filename="TP B/7/b/TPB-7b/TPB-7b.cbp" />
 	</Workspace>
 </CodeBlocks_workspace_file>
