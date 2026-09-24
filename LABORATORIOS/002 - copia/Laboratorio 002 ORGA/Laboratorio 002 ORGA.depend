@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1790099880 source:c:\bauti\repos\orga\orga\laboratorios\002\laboratorio 002 orga\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
